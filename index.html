@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
-    <script src="js/script.js" defer></script>
+    <script src="javascript/script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -20,13 +20,17 @@
                 <div class="form-inputs">
                     <div class="form-control">
                         <label for="height">Altura:</label>
-                        <input type="text" name="height" 
-                               id="height" placeholder="exemplo1,75">
+                        <input type="text" 
+                               name="height" 
+                               id="height" 
+                               placeholder="exemplo1,75">
                     </div>
                     <div class="form-control">
                         <label for="weight">Peso:</label>
-                        <input type="text" name="weight" 
-                               id="weight" placeholder="exemplo60kg">
+                        <input type="text" 
+                               name="weight" 
+                               id="weight" 
+                               placeholder="exemplo60kg">
                     </div>
                 </div>
                 <div class="action-control">
@@ -35,7 +39,7 @@
                 </div>
             </form>
         </div>
-        <div id="result-container" class="hide">
+        <div id="result-container">
             <p id="imc-number">Seu IMC: <span></span></p>
             <p id="imc-info">Situação atual: <span></span></p>
             <h3>Confira as classificações</h3>

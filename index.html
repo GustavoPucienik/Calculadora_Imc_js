@@ -23,7 +23,8 @@
                         <input type="text" 
                                name="height" 
                                id="height" 
-                               placeholder="exemplo1,75">
+                               placeholder="exemplo1,75"
+                               required>
                     </div>
                     <div class="form-control">
                         <label for="weight">Peso:</label>
@@ -34,12 +35,12 @@
                     </div>
                 </div>
                 <div class="action-control">
-                    <button id="cal-btn">Calcular</button>
+                    <button id="calc-btn">Calcular</button>
                     <button id="clear-btn">Limpar</button>
                 </div>
             </form>
         </div>
-        <div id="result-container">
+        <div id="result-container" class="hide">
             <p id="imc-number">Seu IMC: <span></span></p>
             <p id="imc-info">Situação atual: <span></span></p>
             <h3>Confira as classificações</h3>
@@ -53,6 +54,5 @@
             <button id="back-btn">Voltar</button>
         </div>
     </div>
-    
 </body>
 </html>
